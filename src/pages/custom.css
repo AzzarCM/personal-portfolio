@@ -6,11 +6,6 @@
   color: #FF6561;
 }
 
-.hover-div:hover{
-  background-color: #FF6561;
-  color: #ffffff !important;
-}
-
 .backgroundContact{
   position: absolute;
   background: url(../assets/svg/wave.svg);
