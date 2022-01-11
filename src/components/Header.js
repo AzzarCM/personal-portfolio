@@ -3,40 +3,30 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
   ChartBarIcon,
-  CursorClickIcon,
   MenuIcon,
-  RefreshIcon,
-  ShieldCheckIcon,
-  ViewGridIcon,
   XIcon,
+  ChevronRightIcon
 } from '@heroicons/react/outline'
 
 const solutions = [
   {
-    name: 'Analytics',
+    name: 'Work',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
-    icon: ChartBarIcon,
+    href: '#work',
+    icon: ChevronRightIcon,
   },
   {
-    name: 'Engagement',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
-    icon: CursorClickIcon,
-  },
-  { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
-  {
-    name: 'Integrations',
-    description: "Connect with third-party tools that you're already using.",
-    href: '#',
-    icon: ViewGridIcon,
+    name: 'About',
+    description: 'Get a better understanding of where your traffic is coming from.',
+    href: '#about',
+    icon: ChevronRightIcon,
   },
   {
-    name: 'Automations',
-    description: 'Build strategic funnels that will drive your customers to convert',
-    href: '#',
-    icon: RefreshIcon,
-  },
+    name: 'Contact',
+    description: 'Get a better understanding of where your traffic is coming from.',
+    href: '#contact',
+    icon: ChevronRightIcon,
+  }
 ]
 
 export default function Example() {
@@ -55,26 +45,26 @@ export default function Example() {
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-            <a href="#" className="text-base font-medium text-custom-white hover:text-custom-red">
+            <a href="#work" className="text-base font-medium text-custom-white hover:text-custom-red">
               Work
             </a>
-            <a href="#" className="text-base font-medium text-custom-white hover:text-custom-red">
+            <a href="#about" className="text-base font-medium text-custom-white hover:text-custom-red">
               About
             </a>
-            <a href="#" className="text-base font-medium text-custom-white hover:text-custom-red">
+            <a href="#contact" className="text-base font-medium text-custom-white hover:text-custom-red">
               Contact
             </a>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <a
-              href="#"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+              href="mailto:cris.mundo@outlook.com"
+              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-custom-red hover:border-2 hover:border-custom-red hover:bg-custom-white hover:text-custom-black"
             >
               Email me
             </a>
@@ -103,7 +93,7 @@ export default function Example() {
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -117,7 +107,7 @@ export default function Example() {
                       href={item.href}
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
-                      <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                      <item.icon className="flex-shrink-0 h-6 w-6 text-custom-red" aria-hidden="true" />
                       <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                     </a>
                   ))}

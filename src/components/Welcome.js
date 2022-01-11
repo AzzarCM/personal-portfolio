@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <div className="flex flex-col xl:flex-row justify-center items-center custom-height p-5">
       <div>
-        <h1 className="text-custom-white mb-10 font-bold text-5xl max-w-3xl">
+        <h1 className="text-custom-white mb-10 mt-10 xl:mt-0 font-bold text-5xl max-w-3xl">
           Hi! I'm <span className="bg-custom-red rounded-md">Cristian</span> Web
           developer based in El Salvador.
         </h1>

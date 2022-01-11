@@ -1,3 +1,19 @@
 .custom-height{
   height: calc(100vh - 5rem);
 }
+
+.color-red{
+  color: #FF6561;
+}
+
+.hover-div:hover{
+  background-color: #FF6561;
+  color: #ffffff !important;
+}
+
+.backgroundContact{
+  position: absolute;
+  background: url(../assets/svg/wave.svg);
+  background-size: cover;
+  width: 100%;
+}

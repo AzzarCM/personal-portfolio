@@ -1,14 +1,15 @@
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons'
 const AboutMe = () => {
   return (
     <div className="flex flex-col xl:flex-row p-5 max-w-7xl mx-auto justify-around mt-20">
       <div data-aos="slide-right" className="mb-10 xl:mb-0">
         <h2 className="text-custom-white font-bold text-5xl">
           My <br />
-          short story
+          story
         </h2>
-        <button>Download CV</button>
+        <button className="mt-5 text-custom-white"><FontAwesomeIcon className="text-custom-red" icon={faArrowAltCircleDown}/> Download CV</button>
       </div>
       <p data-aos="slide-left" className="text-custom-white max-w-4xl">
         Hi, my story begins 5 years ago when I started to study informatic
