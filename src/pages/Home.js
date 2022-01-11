@@ -9,7 +9,6 @@ import Welcome from "../components/Welcome";
 import TechCard from "../components/TechCard";
 import { faReact, faNodeJs, faCss3, faHtml5, faNpm, faGithub } from '@fortawesome/free-brands-svg-icons'
 import Contact from "../components/Contact";
-import waves from '../assets/svg/wave.svg'
 
 const Home = () => {
   useEffect(() => {

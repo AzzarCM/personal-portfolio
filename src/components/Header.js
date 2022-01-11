@@ -2,7 +2,6 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
-  ChartBarIcon,
   MenuIcon,
   XIcon,
   ChevronRightIcon
@@ -35,12 +34,12 @@ export default function Example() {
       <div className="w-full mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <a href="www.google.com" target="_blank">
               <span className="sr-only">Workflow</span>
               <img
                 className="h-8 w-auto sm:h-10"
                 src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                alt=""
+                alt="jj"
               />
             </a>
           </div>

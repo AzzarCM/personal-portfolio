@@ -9,7 +9,7 @@ const ProjectsGalery = () => {
       className="flex flex-col lg:flex-row m-20 max-w-4xl mx-auto gap-2"
     >
       <div>
-        <a href="https://canvasframeit.com/main/home" target="_blank">
+        <a href="https://canvasframeit.com/main/home" target="_blank"  rel="noreferrer">
           <img
             src={Canvas}
             className="h-full object-cover rounded-lg hover:scale-90 cursor-pointer ease-in duration-200"
@@ -18,14 +18,14 @@ const ProjectsGalery = () => {
         </a>
       </div>
       <div className="flex flex-col gap-2">
-        <a href="https://salesianos.netlify.app/home"  target="_blank">
+        <a href="https://salesianos.netlify.app/home"  target="_blank"  rel="noreferrer">
           <img
             src={Salesianos}
             className="rounded-lg hover:scale-90 cursor-pointer ease-in duration-200"
             alt="salesianos"
           />
         </a>
-        <a href="https://www.feedafriendapp.org/"  target="_blank">
+        <a href="https://www.feedafriendapp.org/"  target="_blank"  rel="noreferrer">
           <img
             src={Faf}
             className="rounded-lg hover:scale-90 cursor-pointer ease-in duration-200"

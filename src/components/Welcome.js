@@ -15,7 +15,7 @@ const Welcome = () => {
       </div>
       <img
         src={homeImage}
-        alt="home-image"
+        alt="imagen-home"
         className="w-full mt-10 md:w-4/6 lg:w-3/6 xl:w-2/6"
       />
     </div>
