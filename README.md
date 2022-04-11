@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This is my personal portfolio (frontend)
 
 ## Available Scripts
 For installing and running my code you need to have NodeJS installed in your computer!
