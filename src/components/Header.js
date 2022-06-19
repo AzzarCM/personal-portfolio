@@ -6,6 +6,7 @@ import {
   XIcon,
   ChevronRightIcon
 } from '@heroicons/react/outline'
+import logo from '../assets/svg/cmundo2.svg'
 
 const solutions = [
   {
@@ -37,8 +38,7 @@ export default function Example() {
             <a href="www.google.com" target="_blank">
               <span className="sr-only">Workflow</span>
               <img
-                className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                src={logo}
                 alt="jj"
               />
             </a>

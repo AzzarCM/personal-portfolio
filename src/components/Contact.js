@@ -1,10 +1,17 @@
 import React from "react";
 import Socials from "./Social";
 import { faLinkedinIn, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import Swal from 'sweetalert2'
 
 const Contact = () => {
   const submitAction = (e) => {
     e.preventDefault();
+    Swal.fire({
+      position: 'center',
+      icon: 'warning',
+      title: `I'm still working on this.`,
+      showConfirmButton: true,
+    })
   };
 
   return (
