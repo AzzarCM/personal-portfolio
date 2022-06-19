@@ -1,6 +1,5 @@
 import React from "react";
 import homeImage from "../assets/svg/home-image.svg";
-import homeImage2 from "../assets/svg/world-medium.svg";
 const Welcome = () => {
   return (
     <div className="flex flex-col xl:flex-row justify-center items-center custom-height p-5">
